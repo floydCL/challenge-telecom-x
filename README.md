@@ -1,14 +1,14 @@
-#Análisis de Evasión de Clientes (Churn) - Telecom X
+# Análisis de Evasión de Clientes (Churn) - Telecom X
 
 Este proyecto forma parte de un desafío de Data Science enfocado en identificar los factores que influyen en la pérdida de clientes de una empresa de telecomunicaciones. El análisis abarca desde la limpieza de datos JSON anidados hasta la creación de un perfil de riesgo para la toma de decisiones estratégicas.
 
-##Tecnologías Utilizadas
+## Tecnologías Utilizadas
 * **Python** (Core del análisis)
 * **Pandas**: Limpieza y manipulación de datos.
 * **Matplotlib & Seaborn**: Visualización estadística y descriptiva.
 * **JSON**: Procesamiento de estructuras de datos anidadas.
 
-##Proceso del Proyecto
+## Proceso del Proyecto
 
 ### 1. Limpieza y Preparación de Datos
 * **Normalización:** Se aplanaron las estructuras JSON (`customer`, `phone`, `internet`, `account`) para crear un DataFrame plano.
@@ -21,7 +21,7 @@ Este proyecto forma parte de un desafío de Data Science enfocado en identificar
 * **Ventana de Riesgo:** El Churn se concentra en clientes nuevos, con un promedio de permanencia de solo **18 meses**, frente a los **37 meses** de los clientes leales.
 * **Variables Críticas:** El tipo de contrato **"Month-to-Month"** y los métodos de pago manuales son los principales predictores de abandono.
 
-##Estructura del Repositorio
+## Estructura del Repositorio
 * `TelecomX_Data.json`: Dataset original.
 * `Analisis_Descriptivo.ipynb`: Notebook con la limpieza y visualizaciones de la Parte 1.
 * `Modelado_Prediccion.ipynb`: Procesamiento de variables y matriz de correlación (Parte 2).
